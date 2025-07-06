@@ -22,5 +22,5 @@ try:
     st.markdown(f"### 💸 Needed pre-tax price: **${pre_tax}**")
     st.markdown(f"### 🔻 Discount to apply: **${discount}** off your original subtotal")
 
-except Exception:
+except Exception as e:
     st.error("Please enter valid numbers for both fields.")
